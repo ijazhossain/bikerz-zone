@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikerz-zone</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f30d40df6a.js" crossorigin="anonymous"></script>
     <!-- Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -13,10 +15,243 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="container">
-    <header>
+<body>
+    <header class="hide">
+        <!-- navbar -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg pt-5  text-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white fw-bold fs-1" href="#">Go Ride</a>
+                    <button class="navbar-toggler nav-bz-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="nav-toggle navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-4">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
 
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white" href="#">News</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <button class="bz-btn px-5 fw-bold" type="submit">Login</button>
+                    </div>
+                </div>
+            </nav>
+            <!-- banner -->
+            <div class="banner text-white px-3 px-lg-0  mt-5 ">
+                <h1 class="mt-lg-5 pt-lg-5">Keep Your Ride Safe<br> At Every Time</h1>
+                <p class="banner-info w-50 my-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                    sunt
+                    nostrud amet.</p>
+                <button class="bz-btn px-5 fw-bold">Purchase</button>
+            </div>
+        </div>
     </header>
+
+    <!-- ---------------
+        Second header
+    ------------------ -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-white my-5 py-2">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold fs-2" href="#">Bike Dekho</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item me-4 pe-2">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-4 pe-2">
+                            <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item me-4 pe-2">
+                            <a class="nav-link active" aria-current="page" href="#">News</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="bz-btn px-5 fw-bold" type="submit">Login</button>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner  bg-danger-subtle p-5 p-md-0">
+                <div class="carousel-item active ps-md-5">
+                    <div class="row align-items-md-center justify-content-md-center p-md-5 ">
+                        <div class="col-12 col-md-6 ps-md-5">
+                            <h1 class="display-4 fw-bold ">Ride-on R15 V4 with Smile</h1>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="bz-btn px-5 fw-bold" type="submit">Purchase</button>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <img class="img-fluid d-md-block " src="images/bike-6.png" alt="...">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item  ps-md-5">
+                    <div class="row align-items-center justify-content-center p-md-5">
+                        <div class="col-12 col-md-6 ps-md-5">
+                            <h1 class="display-4 fw-bold ">Ride-on R15 V4 with Smile</h1>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="bz-btn px-5 fw-bold" type="submit">Purchase</button>
+                        </div>
+                        <div class="col-12 col-md-6 ps-md-5">
+                            <img class="img-fluid " src="images/Bike 2.png" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ps-md-5">
+                    <div class="row align-items-center justify-content-center p-md-5">
+                        <div class="col-12 col-md-6 ps-5">
+                            <h1 class="display-4 fw-bold ">Ride-on R15 V4 with Smile</h1>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="bz-btn px-5 fw-bold" type="submit">Purchase</button>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <img class="img-fluid" src="images/bike-8.png" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main class="container">
+        <section class="feature my-5 py-5">
+            <div class="text-center">
+                <h2 class="display-6 fw-semibold">Fetured Bikes In This Year</h2>
+                <p class="text-danger-emphasis">Best bike collection</p>
+                <hr class="w-50 mx-auto text-danger-emphasis">
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mt-5">
+                <img style="filter: grayscale(100%);" class="img-fluid" src="images/feature-bike.jpg" alt="">
+                <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                <img style="filter: grayscale(100%);" class="img-fluid" src="images/feature-bike.jpg" alt="">
+            </div>
+        </section>
+        <section class="latest-news px-3 px-md-0">
+            <h2 class="display-6 fw-semibold text-center">Latest News</h2>
+            <div class="row row-cols-1 row-cols-md-3 gy-4 gy-md-0 justify-content-md-between mt-5">
+                <div class="card p-2" style="width: 25rem;">
+                    <img src=" images/bike-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3 fw-bold">Ducati XDIAVEL S-73</h5>
+                        <p class="card-text fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                            fermentum
+                            amet faucibus sed id nisi lectus at.</p>
+                        <button class="bz-btn px-3">Read More</button>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 25rem;">
+                    <img src="images/bike-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3 fw-bold">Ducati XDIAVEL S-73</h5>
+                        <p class="card-text fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                            fermentum
+                            amet faucibus sed id nisi lectus at.</p>
+                        <button class="bz-btn px-3">Read More</button>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 25rem;">
+                    <img src="images/bike-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3 fw-bold">Ducati XDIAVEL S-73</h5>
+                        <p class="card-text fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                            fermentum
+                            amet faucibus sed id nisi lectus at.</p>
+                        <button class="bz-btn px-3">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="happy-client my-5 py-5">
+            <h2 class="display-6 fw-semibold text-center">Happy <span class="client-says">Clients Says</span></h2>
+
+            <div
+                class="comments-container row row-cols-1 row-cols-3 justify-content-evenly text-center mt-5 pt-3 gy-5 gy-md-0">
+                <div class="comment border border-light-subtle p-4" style="width: 18rem;">
+                    <img class="w-50" src="images/user-1.png" alt="">
+                    <p class="text-muted my-4">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                        <i class="fa-regular fa-star text-warning"></i>
+                    </div>
+                    <p class="text-primary mt-3"><small>Regina Miles</small></p>
+                    <p><small>Banker</small></p>
+                </div>
+                <div class="comment border border-light-subtle p-4" style="width: 18rem;">
+                    <img class="w-50" src="images/user-2.png" alt="">
+                    <p class="text-muted my-4">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                        <i class="fa-regular fa-star text-warning"></i>
+                    </div>
+                    <p class="text-primary mt-3"><small>Regina Miles</small></p>
+                    <p><small>Banker</small></p>
+                </div>
+                <div class="comment border border-light-subtle p-4" style="width: 18rem;">
+                    <img class="w-50" src="images/user-3.png" alt="">
+                    <p class="text-muted my-4">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                        <i class="fa-regular fa-star text-warning"></i>
+                    </div>
+                    <p class="text-primary mt-3"><small>Regina Miles</small></p>
+                    <p><small>Banker</small></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
